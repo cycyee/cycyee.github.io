@@ -19,10 +19,22 @@ export function ProjectRow({ project, index }: Props) {
         <div className="project-title">{project.title}</div>
         <div className="project-subtitle">{project.subtitle}</div>
         <p className="project-description">{project.description}</p>
-        <div className="project-tech">
-          {project.tech.map((t) => (
-            <span key={t}>{t}</span>
-          ))}
+        <div className="project-meta">
+          <div className="project-tech">
+            {project.tech.map((t) => (
+              <span key={t}>{t}</span>
+            ))}
+          </div>
+          {(project.github || project.link) && (
+            <div className="project-links">
+              {project.github && (
+                <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+              )}
+              {project.link && (
+                <a href={project.link} target="_blank" rel="noopener noreferrer">Live</a>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </motion.div>

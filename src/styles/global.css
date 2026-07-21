@@ -150,11 +150,18 @@ a:hover {
   max-width: 520px;
 }
 
+.project-meta {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 12px;
+}
+
 .project-tech {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-top: 12px;
 }
 
 .project-tech span {
@@ -164,6 +171,23 @@ a:hover {
   background: rgba(255, 255, 255, 0.04);
   color: var(--text-2);
   border: 1px solid var(--border);
+}
+
+.project-links {
+  display: flex;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.project-links a {
+  font-size: 0.75rem;
+  color: var(--text-2);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.project-links a:hover {
+  color: var(--text);
 }
 
 /* ───── Responsive ───── */
