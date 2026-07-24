@@ -17,7 +17,7 @@ export function Hero() {
         <a href="https://github.com/cycyee" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
-        <a href="https://linkedin.com/in/calvinyee" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/cycyee" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
         <a href="/assets/resume.pdf" target="_blank" rel="noopener noreferrer">

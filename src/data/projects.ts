@@ -13,10 +13,10 @@ export const projects: Project[] = [
   {
     id: 'vertical',
     title: 'Vertical',
-    subtitle: 'Agentic Video Generation',
+    subtitle: 'Agentic Video Generation · private',
     description:
-      'Co-built a video generation platform with node-based workflows for iterative asset creation. Agents handle brainstorming, shot lists, scripts, and video synthesis via Gemini and Veo.',
-    tech: ['React', 'Python', 'Gemini', 'Veo', 'Google Cloud', 'Supabase'],
+      'Co-built a video generation platform with node-based workflows for iterative asset creation. Agents handle brainstorming, shot lists, scripts, and video synthesis via Gemini and Veo. Currently in acquisition discussions.',
+    tech: ['React', 'TypeScript', 'Python', 'Gemini', 'Veo', 'Supabase'],
     color: '#a855f7',
   },
   {

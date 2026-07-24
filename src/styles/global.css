@@ -85,6 +85,32 @@ a:hover {
   color: var(--text);
 }
 
+/* ───── About ───── */
+
+.about {
+  padding: 0 0 90px;
+}
+
+.about-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-2);
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 0.95rem;
+  color: var(--text);
+  max-width: 520px;
+  line-height: 1.7;
+}
+
+.about-text + .about-text {
+  margin-top: 16px;
+  color: var(--text-2);
+}
+
 /* ───── Projects ───── */
 
 .projects {
